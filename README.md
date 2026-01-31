@@ -56,7 +56,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-broadcastArrayExceptDimensions = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@umd/browser.js' )
+broadcastArrayExceptDimensions = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -68,7 +68,7 @@ var broadcastArrayExceptDimensions = require( 'path/to/vendor/umd/ndarray-base-b
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -141,7 +141,7 @@ The function accepts the following arguments:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ind2sub@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
