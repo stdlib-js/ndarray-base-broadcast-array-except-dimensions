@@ -54,7 +54,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@esm/index.mjs';
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.1-esm/index.mjs';
 ```
 
 #### broadcastArrayExceptDimensions( arr, shape, dims )
@@ -119,7 +119,7 @@ import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
 import ind2sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ind2sub@esm/index.mjs';
 import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@esm/index.mjs';
-import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@esm/index.mjs';
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.1-esm/index.mjs';
 
 // Create a 1x3 array:
 var x = array( [ [ 1, 2, 3 ] ] );
