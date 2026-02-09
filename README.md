@@ -54,6 +54,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-broadcast-array-except-dimensions/tags). For example,
+
+```javascript
 import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.1-deno/mod.js';
 ```
 
@@ -114,7 +119,7 @@ import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
 import ind2sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ind2sub@deno/mod.js';
 import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@deno/mod.js';
-import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.1-deno/mod.js';
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@deno/mod.js';
 
 // Create a 1x3 array:
 var x = array( [ [ 1, 2, 3 ] ] );
