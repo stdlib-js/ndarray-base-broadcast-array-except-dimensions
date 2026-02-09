@@ -54,7 +54,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@deno/mod.js';
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.1-deno/mod.js';
 ```
 
 #### broadcastArrayExceptDimensions( arr, shape, dims )
@@ -114,7 +114,7 @@ import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
 import ind2sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ind2sub@deno/mod.js';
 import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@deno/mod.js';
-import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@deno/mod.js';
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@v0.1.1-deno/mod.js';
 
 // Create a 1x3 array:
 var x = array( [ [ 1, 2, 3 ] ] );
