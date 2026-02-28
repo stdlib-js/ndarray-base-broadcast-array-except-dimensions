@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`663e715`](https://github.com/stdlib-js/stdlib/commit/663e715df67c0008b1d807e55a4555e54bf8d5ef) - **test:** update test _(by Athan Reines)_
 -   [`93406df`](https://github.com/stdlib-js/stdlib/commit/93406df6ffbb6494062605352b7df9c05694c81d) - **test:** add missing tests _(by Athan Reines)_
 -   [`f10a6aa`](https://github.com/stdlib-js/stdlib/commit/f10a6aaf98c37bb630ac75e1a50dd0bd4a0eb417) - **fix:** ensure unique indices _(by Athan Reines)_
 
