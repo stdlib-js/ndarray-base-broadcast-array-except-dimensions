@@ -45,25 +45,7 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-broadcast-array-except-dimensions
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
@@ -72,7 +54,7 @@ To view installation and usage instructions specific to each branch build, be su
 <!-- eslint-disable id-length -->
 
 ```javascript
-var broadcastArrayExceptDimensions = require( '@stdlib/ndarray-base-broadcast-array-except-dimensions' );
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@esm/index.mjs';
 ```
 
 #### broadcastArrayExceptDimensions( arr, shape, dims )
@@ -80,8 +62,8 @@ var broadcastArrayExceptDimensions = require( '@stdlib/ndarray-base-broadcast-ar
 Broadcasts an input [ndarray][@stdlib/ndarray/base/ctor] to a target shape while keeping a list of specified dimensions unchanged.
 
 ```javascript
-var array = require( '@stdlib/ndarray-array' );
-var getShape = require( '@stdlib/ndarray-shape' );
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@esm/index.mjs';
 
 // Create a 2x2 ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
@@ -127,12 +109,17 @@ The function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var array = require( '@stdlib/ndarray-array' );
-var numel = require( '@stdlib/ndarray-base-numel' );
-var ind2sub = require( '@stdlib/ndarray-ind2sub' );
-var getShape = require( '@stdlib/ndarray-shape' );
-var broadcastArrayExceptDimensions = require( '@stdlib/ndarray-base-broadcast-array-except-dimensions' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
+import ind2sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ind2sub@esm/index.mjs';
+import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@esm/index.mjs';
+import broadcastArrayExceptDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array-except-dimensions@esm/index.mjs';
 
 // Create a 1x3 array:
 var x = array( [ [ 1, 2, 3 ] ] );
@@ -158,6 +145,10 @@ for ( i = 0; i < N; i++ ) {
     sub = ind2sub( sh, i );
     console.log( 'Y[%s] = %d', sub.join( ', ' ), v );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -189,7 +180,7 @@ for ( i = 0; i < N; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -252,11 +243,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-broadcast-array-except-dimensions/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor/tree/esm
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes/tree/esm
 
 </section>
 
